@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.documentationSideBar.category.Welcome": {
+    "message": "文档",
+    "description": "The label for category Welcome in sidebar documentationSideBar"
+  },
+  "sidebar.documentationSideBar.category.Test": {
+    "message": "测试",
+    "description": "The label for category Test in sidebar documentationSideBar"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档分页导航",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+ 
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "打开/收起侧边栏菜单「{label}」",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "GameOne": {
+    "message": "GameOne"
+  },
+  "Computer Automated Scoring OSS for IT": {
+    "message": "GameOne IT 竞赛、考试、认证的机器自动评分系统(Computer Automated Scoring System, CASS)."
+  },
+  "GameOne is a machine automatic scoring system for competitions, exams and certifications in the fields of big data, artificial intelligence, cloud computing, software development, etc. The system supports the automatic scoring of IT system assessment through various ways such as SSH remote support, SandBox code execution, graphic recognition, OCR recognition, and text similarity recognition through plug-in mode.": {
+    "message": "GameOne是一个面向大数据、人工智能、云计算、软件开发等领域的竞赛、考试、认证的机器自动评分系统，系统通过插件模式支持SSH远程支持、SandBox代码执行、图形识别、OCR识别、文字相似度识别等各种方式支持IT系统考核的自动判分。"
+  },
+  "Our goal is to create an open platform that can support big data, artificial intelligence, cloud computing, blockchain, Internet of Things, robots and other IT systems to support automatic scoring in skills competitions, exams and certifications. More contributors are welcome to join this open source project, develop more automatic scoring plug-ins, and integrate container AI technology to enhance automatic scoring capabilities in code review, document evaluation and other aspects.": {
+    "message": "我们的目标是创建一个开放平台，能支持大数据、人工智能、云计算、区块链、物联网、机器人等IT系统在技能竞赛、考试、认证中支持自动判分。欢迎更多的贡献者加入本开源项目，开发更多的自动判分插件，同时融入容器AI技术，在代码审查、文档评价等方面增强自动判分能力。"
+  },
+  "Recent News": {
+    "message": "最新消息"
+  },
+  "View All": {
+    "message": "查看全部"
+  },
+  "Last updated on": {
+    "message": "最近更新于"
+  },
+  "Supporters": {
+    "message": "支持者"
+  },
+  "plug-ins": {
+    "message": "自动判分插件化"
+  },
+  "Machine scoring plug-in, support multiple languages, support the same type of scoring a variety of ways, can detect virtual machine operation, program running, program code, and achieve automatic scoring function.": {
+    "message": "机器判分插件化，支持多语言，支持同一类型判分多种实现方式；可检测虚拟机操作、程序运行、 程序代码、并实现自动打分功能。"
+  },
+  "Versatility": {
+    "message": "通用性"
+  },
+  "Machine scoring plug-in, support multiple languages, support the same type of scoring a variety of ways, can detect virtual machine operation, program running, program code, and achieve automatic scoring function.": {
+    "message": "机器判分插件化，支持多语言，支持同一类型判分多种实现方式；可检测虚拟机操作、程序运行、 程序代码、并实现自动打分功能。"
+  },
+  "Multiple Modes": {
+    "message": "多模式支持"
+  },
+
+
+  "Open source, free; General and the game has no binding; It can record the problem solving process log, and the log can be traced.": {
+    "message": "开源、免费；通用与赛题无任何绑定；可记录解题过程日志，且日志可溯源。"
+  },
+  "The competition supports individual competition and team competition, and supports passing mode and examination mode.": {
+    "message": "竞赛支持单人赛、团体赛,支持闯关模式与考试模式。"
+  },
+  "Edge Autonomy": {
+    "message": "Edge Autonomy"
+  },
+  "Low Resource Ready": {
+    "message": "Low Resource Ready"
+  },
+  "Simplified Device Communication": {
+    "message": "Simplified Device Communication"
+  },
+  "Easy communication between application and devices for IOT and Industrial Internet.": {
+    "message": "Easy communication between application and devices for IOT and Industrial Internet."
+  },
+  "Heterogenous": {
+    "message": "Heterogenous"
+  },
+  "Native support of x86, ARMv7, ARMv8": {
+    "message": "Native support of x86, ARMv7, ARMv8"
+  },
+  "Why GameOne": {
+    "message": "为何选择GameOne"
+  },
+  "Welcome to GameOne": {
+    "message": "欢迎来到GameOne"
+  },
+  "A Computer Automated Scoring System for IT Competition, Examination & certification": {
+    "message": "面向IT竞赛、考试与认证的机器自动评分系统软件"
+  },
+  "Join Us": {
+    "message": "欢迎加入本开源，"
+  },
+  "Community": {
+    "message": "社区成员："
+  },
+
+
+  "Abundant applications": {
+    "message": "丰富的应用程序"
+  },
+  "It is easy to get and deploy existing complicated machine learning, image recognition, event processing and other high level applications to the Edge.": {
+    "message": "您可以轻松地将复杂的机器学习，图像识别，事件处理和其他高级应用程序部署到您的边缘。"
+  },
+  "Bidirectional communication, able to talk to edge nodes located in private subnet.": {
+    "message": "Bidirectional communication, able to talk to edge nodes located in private subnet."
+  },
+  "Support both metadata and data": {
+    "message": "Support both metadata and data"
+  },
+  "Metadata persistent per node, no list-watch needed during node recovery, get ready faster.": {
+    "message": "Metadata persistent per node, no list-watch needed during node recovery, get ready faster."
+  },
+  "Autonomous operation of edge even during disconnection from cloud.": {
+    "message": "Autonomous operation of edge even during disconnection from cloud."
+  },
+  "Optimized usage of resource at the edge.": {
+    "message": "Optimized usage of resource at the edge."
+  },
+  "Memory footprint down to ~70MB.": {
+    "message": "Memory footprint down to ~70MB."
+  },
+  "Job Center": {
+    "message": "招聘中心"
+  },
+ 
+  "POST A JOB": {
+    "message": "发布一份工作"
+  },
+  "created-at": {
+    "message": "创建日期"
+  },
+  "expired-at": {
+    "message": "截止日期"
+  },
+  "READ CASE STUDY": {
+    "message": "阅读案例"
+  },
+  "Case Category": {
+    "message": "案例类别"
+  },
+  "Case Studies": {
+    "message": "成功案例"
+  },
+  
+  "POST YOUR CASE": {
+    "message": "上传你的案例"
+  },
+  "GameOne Distributions, Hosted Platforms, and Installers": {
+    "message": "GameOne 发行版、托管平台、安装程序、推广使用；"
+  }
+}
